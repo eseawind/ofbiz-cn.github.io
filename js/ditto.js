@@ -192,7 +192,7 @@ function show_loading() {
     return loading;
 }
 
-function router() {	
+function router() {
 
     var path = location.hash.replace("#", "./");
 
@@ -237,10 +237,10 @@ function router() {
         // 加载disqus
         (function() {
             // http://docs.disqus.com/help/2/
-            window.disqus_shortname = 'es6';
+            window.disqus_shortname = 'ofbiz';
             window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
             window.disqus_title = $(ditto.content_id + " h1").text();
-            window.disqus_url = 'http://es6.ruanyifeng.com/' + (location.hash ? location.hash.replace("#", "") : 'README');
+            window.disqus_url = 'http://ofbiz-cn.github.io/' + (location.hash ? location.hash.replace("#", "") : 'README');
 
             // http://docs.disqus.com/developers/universal/
             (function() {

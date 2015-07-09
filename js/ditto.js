@@ -17,7 +17,7 @@ var ditto = {
     run: initialize
 };
 
-var disqusCode = '<h3>留言</h3><div id="disqus_thread"></div>';
+//var disqusCode = '<h3>留言</h3><div id="disqus_thread"></div>';
 var menu = new Array();
 
 function initialize() {
@@ -220,7 +220,7 @@ function router() {
     var loading = show_loading();
     $.get(path, function(data) {
         $(ditto.error_id).hide();
-        $(ditto.content_id).html(marked(data) + disqusCode);
+        $(ditto.content_id).html(marked(data));// + disqusCode);
         if ($(ditto.content_id + " h1").text() === ditto.document_title) {
             document.title = ditto.document_title;
         } else {
@@ -235,22 +235,22 @@ function router() {
         });
 
         // 加载disqus
-        (function() {
-            // http://docs.disqus.com/help/2/
-            window.disqus_shortname = 'ofbiz';
-            window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
-            window.disqus_title = $(ditto.content_id + " h1").text();
-            window.disqus_url = 'http://ofbiz-cn.github.io/' + (location.hash ? location.hash.replace("#", "") : 'README');
-
-            // http://docs.disqus.com/developers/universal/
-            (function() {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        })();
+        // (function() {
+        //     // http://docs.disqus.com/help/2/
+        //     window.disqus_shortname = 'ofbiz';
+        //     window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
+        //     window.disqus_title = $(ditto.content_id + " h1").text();
+        //     window.disqus_url = 'http://ofbiz-cn.github.io/' + (location.hash ? location.hash.replace("#", "") : 'README');
+        //
+        //     // http://docs.disqus.com/developers/universal/
+        //     (function() {
+        //         var dsq = document.createElement('script');
+        //         dsq.type = 'text/javascript';
+        //         dsq.async = true;
+        //         dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        //         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        //     })();
+        // })();
 
 		var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- jQuery -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+  <script src="js/marked.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ditto.js"></script>
+  <script src="js/prism.js"></script>
+  <link rel="stylesheet" href="app/bower_components/normalize-css/normalize.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>ofbiz 中文文档</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- essential -->
+		<div id="sidebar"></div>
+		<div id="content"></div>
+  <!-- optional -->
+  <div id="back_to_top">back to top</div>
+  <div id="edit">edit</div>
+  <div id="loading">Loading ...</div>
+  <div id="error">Opps! ... File not found!</div>
+  <div id="flip"><div id="pageup">上一章</div><div id="pagedown">下一章</div></div>
+  <div class="progress-indicator-2"></div>
+
+  <script>
+      // essential settings
+      ditto.index = "README.md",
+      ditto.sidebar_file = "sidebar.md",
+	    ditto.document_title = "ofbiz 中文文档",
+      // where the docs are actually stored on github - so you can edit
+      ditto.base_url = "https://github.com/ofbiz-cn/ofbiz-cn.github.io/edit/gh-pages";  // <------- EDIT ME!!
+
+      // run
+      ditto.run();
+  </script>
+  <noscript>
+	  <p>《ofbiz 中文文档》是一本开源的 ofbiz 相关知识文档，全面介绍 ofbiz 的技术实现与业务逻辑。</p>
+  </noscript>
+</body>
+</html>

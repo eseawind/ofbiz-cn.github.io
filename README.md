@@ -5,10 +5,10 @@
 文档主要分为 ofbiz 的技术实现分析，和业务逻辑分析两个部分。同时结合了 ofbiz 在开发过程中所参
 考的一些资料，比如《数据模型资源手册（卷1）》，《JAVA 核心模式》等对 ofbiz 的主要的设计思想
 进行分析。
-
+a
 文档的目的是为 ofbiz 的开发者和运维人员提供一个良好的参考资源。
 
-文档基于 [ofbiz 13.07.02](http://ofbiz.apache.org/download.html),同时参考了大量 ofbiz
+文档基于 [ofbiz 13.07.02](http://ofbiz.apache.org/download.html)，同时参考了大量 ofbiz
 [官方 wiki](https://cwiki.apache.org/confluence/display/OFBIZ/Home) 的内容。
 
 ## 关于 ofbiz
@@ -22,3 +22,8 @@ MMS/EAM（维护管理系统/企业资产管理）和 POS（销售点）等系�
 
 Apache OFBiz 采用 Apache License Version 2.0 版本许可，是 Apache Software Foundation
 旗下的一个顶级项目。
+
+## 相关资源
+
+- [Apache OFBiz 官网](http://ofbiz.apache.org/)
+- [Apache OFBiz 官方 Wiki](https://cwiki.apache.org/confluence/display/OFBIZ/Home)

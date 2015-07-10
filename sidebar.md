@@ -6,6 +6,7 @@
 
 ## 目录
 1. [前言](#README)
+1. [OFBiz 功能特点](#doc/features)
 
 ## 其他
 - [源码](https://github.com/ofbiz-cn/ofbiz-cn.github.io/)

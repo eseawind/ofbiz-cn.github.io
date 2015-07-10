@@ -12,3 +12,4 @@
 - [源码](https://github.com/ofbiz-cn/ofbiz-cn.github.io/)
 - [修订历史](https://github.com/ofbiz-cn/ofbiz-cn.github.io/commits)
 - [反馈意见](https://github.com/ofbiz-cn/ofbiz-cn.github.io/issues)
+- [其它资源](#docs/resource)

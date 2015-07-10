@@ -2,11 +2,9 @@
 
 《ofbiz 中文文档》是一本开源的 ofbiz 相关知识文档，力求详细的介绍 ofbiz 的方方面面。
 
-文档主要分为 ofbiz 的技术实现分析，和业务逻辑分析两个部分。同时结合了 ofbiz 在开发过程中所参
+本文档将主要分为 ofbiz 的技术实现分析，和业务逻辑分析两个部分。同时结合了 ofbiz 在开发过程中所参
 考的一些资料，比如《数据模型资源手册（卷1）》，《JAVA 核心模式》等对 ofbiz 的主要的设计思想
-进行分析。
-a
-文档的目的是为 ofbiz 的开发者和运维人员提供一个良好的参考资源。
+进行分析。文档的目的是为 ofbiz 的开发者和运维人员提供一个良好的参考资源。
 
 文档基于 [ofbiz 13.07.02](http://ofbiz.apache.org/download.html)，同时参考了大量 ofbiz
 [官方 wiki](https://cwiki.apache.org/confluence/display/OFBIZ/Home) 的内容。

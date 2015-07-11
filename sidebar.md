@@ -8,6 +8,12 @@
 1. [前言](#README)
 1. [OFBiz 功能特点](#docs/features)
 1. [新手入门教程](#docs/tutorial)
+  - [第一部分](#docs/tutorial1)
+  - [第二部分](#docs/tutorial2)
+  - [第三部分](#docs/tutorial3)
+  - [第四部分](#docs/tutorial4)
+  - [第五部分](#docs/tutorial5)
+  - [第六部分](#docs/tutorial6)
 
 ## 其他
 - [源码](https://github.com/ofbiz-cn/ofbiz-cn.github.io/)

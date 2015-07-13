@@ -27,3 +27,11 @@
 1. [配置文件详细](http://pan.baidu.com/s/1dD6iVtB)
 1. [一些简单的改动](http://pan.baidu.com/s/1hqvn0RM)
 1. [接下来该做什么？](http://pan.baidu.com/s/1jGMnGR8)
+
+## 论坛社区
+
+1. [ofbizchina](http://www.ofbizchina.com/)
+
+## 其他资源
+
+1. [Core J2EE Patterns 官网](http://www.corej2eepatterns.com/)
